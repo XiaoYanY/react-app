@@ -1,0 +1,91 @@
+
+html{
+    font-size: 13.333333vw !important;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.App{
+    width:100%;
+    overflow: hidden;
+}
+.App header{
+    width:100%;
+    position: fixed;
+    z-index: 2;
+}
+.content{
+    background:#fff;
+    padding-top:90px;
+}
+.wrap img{
+    height:2.56rem;
+}
+.section {
+    margin-top:0.1rem;
+}
+.section .iconfont{
+    font-size:0.5rem;
+}
+.list-rankitem .am-list-item {
+    min-height: 1.82rem;
+}
+.list-rankitem .am-list-item img{
+    width:1.58rem;
+    height:1.58rem;
+}
+.align{
+    text-align:center;
+    margin: 3rem 0;
+}
+.align div span{
+    margin:0 auto;
+}
+.song-info{
+    width:3rem;
+    display: flex;
+    flex-direction: column;
+}
+.song-info span:nth-of-type(2){
+    color:#9b9b9b;
+}
+.song-info span:nth-of-type(2) i{
+    margin-right: .2857rem;
+}
+.SingerClassify{
+    padding:0  .3rem;
+}
+.SingerClassify .am-button{
+    padding:0  .3rem;
+    color:#333;
+    display: flex;
+    justify-content: space-between;
+    background:#fbfbfb;
+}
+.SingerClassify .am-button svg{
+    vertical-align: middle;
+    margin: auto 0;
+}
+.classify{
+    margin: 0.3rem 0;
+}
+.am-navbar.white{
+    background: #fff;
+    color:#000;
+}
+.am-navbar.black{
+    background:linear-gradient(top,rgba(0,0,0,.6),rgba(0,0,0,0));
+    color:#fff;
+}
+.titlepic{
+    width:100%;
+    height:4.5rem;
+    overflow: hidden;
+    margin-top:-0.9rem;
+}
+.am-accordion-item .am-accordion-content .am-accordion-content-box{
+    padding: 0.15rem 0.13rem;
+    font : 0.5rem/0.6rem "宋体" !important;
+}

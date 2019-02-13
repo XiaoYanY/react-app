@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>播放样式</title>
+    <style>
+        body{
+            margin:0;
+        }
+        .playbox{
+            position: fixed;
+            bottom:0;
+            left:0;
+            width:90vw;
+            height:15vh;
+            background:#404040;
+            padding:5vw;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+        }
+        .playbox .songerPic{
+            flex:0.7;
+            height:100%;
+            background:#fff;
+        }
+        .playbox .control{
+            flex:1;
+            height:100%;
+            display: flex;
+            justify-content: space-between;
+            font:3.6vh/15vh "微软雅黑";
+            color:#fff;
+        }
+    </style>
+</head>
+<body>
+    <div class="playbox">
+        <div class="songerPic"></div>
+        <div class="control">
+            <span>上一首</span>
+            <span>播放</span>
+            <span>下一首</span>
+        </div>
+    </div>
+</body>
+</html>
